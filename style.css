@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	background: url("img/resume1d.jpg") center/cover no-repeat;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#kto {
+	font-weight: 900;
+	margin-left: 30px;
+	margin-top: 100px;
+	font-size: 50px;
+	color: black;
+	-webkit-text-stroke: 1px white;
+}
+
+.czerwony {
+	color: #940124;
+}
+
+#stanowisko {
+	font-weight: 600;
+	margin-left: 30px;
+	margin-top: 0px;
+	font-size: 40px;
+	-webkit-text-stroke: 0.4px white;
+	color: black;
+}
+
+#offcanvasOMnie {
+	width: 100vw;
+}
+
+#offcanvasCV{
+	width: 100vw;
+}
+#offcanvasWyslij {
+	height: 80vh;
+}
+
+@media only screen and (min-width: 425px) {
+	#kto {
+		font-size: 70px;
+	}
+	#stanowisko {
+		font-size: 50px;
+		-webkit-text-stroke: 1px white;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	#kto {
+		font-size: 110px;
+	}
+	#stanowisko {
+		font-size: 70px;
+		-webkit-text-stroke: 1px white;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+	#kto {
+		font-size: 140px;
+	}
+	#stanowisko {
+		font-size: 80px;
+		-webkit-text-stroke: 1px white;
+	}
+	#offcanvasOMnie {
+		width: 50vw;
+	}
+	
+	#offcanvasCV{
+		width: 75vw;
+	}
+	#offcanvasWyslij{
+		height: 60vh;
+	}
+}
+
+@media only screen and (min-width: 1441px) {
+	#kto {
+		margin-top: 100px;
+		font-size: 160px;
+	}
+	#stanowisko {
+		font-size: 100px;
+		-webkit-text-stroke: 1px white;
+	}
+	#offcanvasOMnie {
+		width: 25vw;
+	}
+	
+	#offcanvasCV{
+		width: 35vw;
+	}
+	#offcanvasWyslij{
+		height: 55vh;
+	}
+}
